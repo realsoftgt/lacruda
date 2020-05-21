@@ -1,0 +1,41 @@
+{
+  "name": "realsoft/lacruda",
+  "description": "Build Laravel 7 CRUD apps in record time!",
+  "type": "package",
+  "homepage": "https://github.com/realsoft/lacruda",
+  "license": "MIT",
+  "keywords": [
+    "crud",
+    "ajax",
+    "tables",
+    "generate",
+    "table",
+    "ui"
+  ],
+  "authors": [
+    {
+      "name": "Henry Díaz",
+      "email": "hnrdiaz@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "laravel/framework": "7.*",
+    "yajra/laravel-datatables-html": "^4.0",
+    "yajra/laravel-datatables-oracle": "~9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RealSoft\\Lacruda\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RealSoft\\Lacruda\\Providers\\LacrudaServiceProvider"
+      ]
+    }
+  },
+  "version": "0.1.5",
+  "minimum-stability": "rc"
+}

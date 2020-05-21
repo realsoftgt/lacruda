@@ -1,0 +1,28 @@
+table.dataTable {
+  border-radius: 0.25rem;
+  border: 1px solid #dee2e6;
+  overflow: hidden;
+}
+table.dataTable th {
+  border-top: 0;
+}
+table.dataTable th,
+.dataTable td {
+  vertical-align: middle;
+}
+table.dataTable tr.checked td {
+  background-color: #f8f9fa;
+}
+table.dataTable tr:hover td {
+  background-color: #e9ecef;
+}
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before {
+  right: 1.15rem;
+}
+
+.alert-container {
+  pointer-events: none;
+  z-index: 1060;
+}

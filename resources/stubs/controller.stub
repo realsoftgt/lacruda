@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\DummyModelClass;
+use RealSoft\Lacruda\Traits\LacrudaController;
+
+class DummyControllerClass extends Controller
+{
+    use LacrudaController;
+
+    public function __construct()
+    {
+        $this->model = new DummyModelClass;
+        $this->middleware('auth');
+    }
+}
