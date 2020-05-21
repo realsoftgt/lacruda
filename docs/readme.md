@@ -12,7 +12,7 @@
 
 **Links of interest:**
 
-- [Docs](https://github.com/realsoft/lacruda/blob/master/docs/readme.md)
-- [Support](https://github.com/realsoft/lacruda/issues)
-- [Contributions](https://github.com/realsoft/lacruda/pulls)
-- [Buy me a coffee](https://ko-fi.com/realsoft)
+- [Docs](https://github.com/real-soft/lacruda/blob/master/docs/readme.md)
+- [Support](https://github.com/real-soft/lacruda/issues)
+- [Contributions](https://github.com/real-soft/lacruda/pulls)
+- [Buy me a coffee](https://ko-fi.com/real-soft)

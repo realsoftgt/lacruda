@@ -2,7 +2,7 @@
   "name": "realsoft/lacruda",
   "description": "Build Laravel 7 CRUD apps in record time!",
   "type": "package",
-  "homepage": "https://github.com/realsoft/lacruda",
+  "homepage": "https://github.com/real-soft/lacruda",
   "license": "MIT",
   "keywords": [
     "crud",
