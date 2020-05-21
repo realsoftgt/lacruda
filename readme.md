@@ -14,7 +14,7 @@ LACRUDA is a Laravel 7 package designed to integrate beautifully while saving yo
 
 **Links of interest:**
 
-- [Docs](https://github.com/realsoft/lacruda/tree/master/docs/readme.md)
+- [Docs](https://github.com/real-soft/lacruda/blob/master/docs/readme.md)
 - [Screenshots](https://imgur.com/a/uo1ZST5)
 - [Support](https://github.com/realsoft/lacruda/issues)
 - [Contributions](https://github.com/realsoft/lacruda/pulls)
@@ -80,4 +80,4 @@ Run the migration:
 
 Log into your app with any auth `User` and click the `Vehicles` link in the navbar to view the CRUD.
 
-[Learn more in the docs](https://github.com/realsoft/lacruda/tree/master/docs/readme.md).
+[Learn more in the docs](https://github.com/real-soft/lacruda/blob/master/docs/readme.md).
