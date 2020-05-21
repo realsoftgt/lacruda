@@ -1,4 +1,4 @@
-# Laravel CRUD AJAX (LACRUDA) Docs
+# **LA**ravel **CRUD** **A**JAX (LACRUDA) Docs
 
 **Table of contents:**
 
@@ -12,8 +12,7 @@
 
 **Links of interest:**
 
-- [Docs](https://github.com/realsoft/lacruda/tree/master/docs/readme.md)
-- [Screenshots](https://imgur.com/a/uo1ZST5)
+- [Docs](https://github.com/realsoft/lacruda/blob/master/docs/readme.md)
 - [Support](https://github.com/realsoft/lacruda/issues)
 - [Contributions](https://github.com/realsoft/lacruda/pulls)
 - [Buy me a coffee](https://ko-fi.com/realsoft)

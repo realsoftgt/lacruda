@@ -1,10 +1,10 @@
-# Laravel CRUD Ajax
+# **LA**ravel **CRUD** **A**JAX (LACRUDA) Docs
 
-LACRUDA is a Laravel 7 package designed to integrate beautifully while saving you tons of time. Get a complete CRUD interface done in minutes by adding a few lines of code to your models.
+**LACRUDA** is a **Laravel 7** package designed to integrate beautifully while saving you tons of time. Get a complete CRUD interface done in minutes by adding a few lines of code to your models.
 
 **Features include:**
 
-- Full Laravel 7 auth & resource integration
+- Full **Laravel 7** auth & resource integration
 - Unobtrusive implementation to keep you in control
 - Field, action, & bulk action helper classes
 - Scaffolding command to create files for you
@@ -15,7 +15,6 @@ LACRUDA is a Laravel 7 package designed to integrate beautifully while saving yo
 **Links of interest:**
 
 - [Docs](https://github.com/real-soft/lacruda/blob/master/docs/readme.md)
-- [Screenshots](https://imgur.com/a/uo1ZST5)
 - [Support](https://github.com/realsoft/lacruda/issues)
 - [Contributions](https://github.com/realsoft/lacruda/pulls)
 - [Buy me a coffee](https://ko-fi.com/realsoft)
