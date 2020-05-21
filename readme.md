@@ -1,10 +1,10 @@
-# **LA**ravel **CRUD** **A**jax (**LACRUDA**)
+# Laravel CRUD Ajax
 
-LACRUDA es un paquete de Laravel 7 diseñado para integrarse maravillosamente mientras le ahorra toneladas de tiempo. Obtenga una interfaz CRUD completa en minutos agregando algunas líneas de código a sus modelos.
+LACRUDA is a Laravel 7 package designed to integrate beautifully while saving you tons of time. Get a complete CRUD interface done in minutes by adding a few lines of code to your models.
 
-**Las características incluyen:**
+**Features include:**
 
-- Integración completa con la autenticación y recursos Laravel 7.
+- Full Laravel 7 auth & resource integration
 - Unobtrusive implementation to keep you in control
 - Field, action, & bulk action helper classes
 - Scaffolding command to create files for you
@@ -14,11 +14,11 @@ LACRUDA es un paquete de Laravel 7 diseñado para integrarse maravillosamente mi
 
 **Links of interest:**
 
-- [Docs](https://github.com/kdion4891/laravel-ajax-crud/tree/master/docs/readme.md)
+- [Docs](https://github.com/realsoft/lacruda/tree/master/docs/readme.md)
 - [Screenshots](https://imgur.com/a/uo1ZST5)
-- [Support](https://github.com/kdion4891/laravel-ajax-crud/issues)
-- [Contributions](https://github.com/kdion4891/laravel-ajax-crud/pulls)
-- [Buy me a coffee](https://ko-fi.com/kdion4891)
+- [Support](https://github.com/realsoft/lacruda/issues)
+- [Contributions](https://github.com/realsoft/lacruda/pulls)
+- [Buy me a coffee](https://ko-fi.com/realsoft)
 
 # Installation
 
@@ -32,35 +32,35 @@ Publish the nav view, CSS, & JS files:
 
 Integrate the auth scaffolding:
 
-    php artisan lac:auth
+    php artisan lacruda:auth
 
 # Quick Start
 
 Make scaffolding files for a new model (a `Vehicle`, for example):
 
-    php artisan lac:make Vehicle
+    php artisan lacruda:make Vehicle
 
-Update the `LacField`s in the new `Vehicle` model class:
+Update the `LacrudaField`s in the new `Vehicle` model class:
 
     public function fields()
     {
         return [
-            LacField::make('ID')
+            LacrudaField::make('ID')
                 ->tableColumn()->tableSearchable()->tableOrder('desc'),
 
-            LacField::make('Brand')
+            LacrudaField::make('Brand')
                 ->tableColumn()->tableSearchable()->tableSortable()
                 ->input()->inputCreate()->inputEdit()
                 ->rules(['required']),
 
-            LacField::make('Color')
+            LacrudaField::make('Color')
                 ->tableColumn()->tableSearchable()->tableSortable()
                 ->inputSelect(['Red', 'Green', 'Blue'])->inputCreate()->inputEdit(),
 
-            LacField::make('Created At')
+            LacrudaField::make('Created At')
                 ->tableColumn()->tableSearchable()->tableHidden(),
 
-            LacField::make('Updated At')
+            LacrudaField::make('Updated At')
                 ->detailsHidden(),
         ];
     }
@@ -80,4 +80,4 @@ Run the migration:
 
 Log into your app with any auth `User` and click the `Vehicles` link in the navbar to view the CRUD.
 
-[Learn more in the docs](https://github.com/kdion4891/laravel-ajax-crud/tree/master/docs/readme.md).
+[Learn more in the docs](https://github.com/realsoft/lacruda/tree/master/docs/readme.md).
