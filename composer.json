@@ -1,5 +1,5 @@
 {
-  "name": "realsoft/lacruda",
+  "name": "@realsoft/lacruda",
   "description": "Build Laravel 7 CRUD apps in record time!",
   "type": "package",
   "homepage": "https://github.com/real-soft/lacruda",
@@ -37,5 +37,5 @@
     }
   },
   "version": "0.1.5",
-  "minimum-stability": "rc"
+  "minimum-stability": "dev"
 }
